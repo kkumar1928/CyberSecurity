@@ -1,0 +1,20 @@
+Corporate network:
+•	Main HQ 
+  o	Domain controller → authenticating different users from different branches
+•	Branch offices 
+  o	Connect to HQ resources, print server, domain controller
+•	Devices out of office 
+  o	Connection to the main HQ and resources
+  o	Make sure devices have reliable antivirus
+  o	Make sure the antivirus can be administrated at one point
+  o	Use an agent to deploy an antivirus on all of the devices
+
+Threats:
+•	Unauthorized access → domain controller 
+  o	Branch offices connecting to HQ using VPN
+•	Having different resources on separate servers (domain controller, print server etc) 
+  o	In case of failure on one server, the other servers with their resources will keep running
+
+Steps to take:
+  -	Create packet tracer application, make sure it’s fully working
+  -	Write up documentation based on the working packet tracer application
