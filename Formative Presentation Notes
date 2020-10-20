@@ -1,19 +1,38 @@
 Network Threats:
--
--
--
+- Phishing attack
+- ransomware
+- ddos attacks
 -
 -
 -
 
 Mitigation Strategies:
--
--
--
--
--
--
--
--
--
--
+- exchange filtering
+- education of staff regarding potential phishing threats
+- taking offsite backups (e.g. tape, airgaps)
+- keeping volatile memory intact - infosec
+- AAA for things like RDP and off-site access
+- loadbalancing
+- dynamic ips
+
+
+Structure:
+
+- Introductory slide
+- Explanation of a typical network layout and possible entry points
+-- Phishing attacks
+--- Exchange filtering
+--- Education of staff
+--- Hardware solutions (?)
+-- Ransomware
+--- Taking offsite backups
+--- Keeping memory intact for recovery of encryption key pairs
+--- AAA for things like RDP and off-site access
+--- Heuristical analysis from anti-virus programs
+--- Disaster/data recovery plans (things like VMware/hypervisors)
+--- Hardware solutions (?)
+-- DDoS attacks
+--- Loadbalancing
+--- Firewalls
+--- Hardware solutions (?)
+- Concluding slide
